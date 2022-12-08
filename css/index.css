@@ -1,8 +1,34 @@
-header{
-    background-color:lightcoral;
+/*(paletadecores.com) <- Site gerador de cores. Para deixar seu site com um estilo mais harmonizado*/
+header{ /* Personalizando o que esta dentro de header*/
+    background-color: #36173d; 
     }
-    a{
-    color: crimson;
-    font-size: 20px; 
-            }
+
+    nav{
+        text-align:end; /*colocando elementos de 'a' no final*/
+    }
     
+    a{
+    color: #ff4845; /* Mudar cor da fonte que esta dentro de a */
+    font-size: 20px;  /* Mudar tamanho da fonte que esta dentro de a */
+    font-family:fantasy; /* Mudar fonte que está dentro de a */
+    text-decoration:none;
+    margin-right: 30px; /* espaco entre as fontes*/
+            }
+    a::before{
+        content: "";
+        display : inline-block;
+        background-color: #ffec5e;
+        width : 5px;
+        height : 5px;
+        margin-right: 10px;
+    }
+#button1 { /* #(hashtag): seletor id do elemento button */
+       display:inline-block; /*para poder mudar a altura e largura do botao (block). A tag (a) é inline (mesma linha)*/
+       background-color:#ffec5e;
+       /* Mexendo na dimensao do botao */
+       height: 60px; /* altura */
+       line-height: 60px; /* altura da fonte (centralizando ela)*/
+       padding-left: 20px; 
+       padding-right: 20px;
+       box-shadow: 5px 5px 0 #ff4845; /* 5px : eixo x, 5px : eixo y, 0 : esfumar a sombra (ex : 4px) e a cor da sombra*/
+}
