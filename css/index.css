@@ -1,7 +1,9 @@
 /*(paletadecores.com) <- Site gerador de cores. Para deixar seu site com um estilo mais harmonizado*/
 header{ /* Personalizando o que esta dentro de header*/
     background-color: #36173d; 
-    }
+    border-bottom: 10px solid #ffa590;  
+    padding: 10px 20px ;
+}
 
     nav{
         text-align:end; /*colocando elementos de 'a' no final*/
@@ -32,3 +34,5 @@ header{ /* Personalizando o que esta dentro de header*/
        padding-right: 20px;
        box-shadow: 5px 5px 0 #ff4845; /* 5px : eixo x, 5px : eixo y, 0 : esfumar a sombra (ex : 4px) e a cor da sombra*/
 }
+
+

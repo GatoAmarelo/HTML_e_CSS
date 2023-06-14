@@ -1,0 +1,27 @@
+
+
+button{
+     width: 100px;
+     height: 50px;
+    
+     background: rgb(178, 233, 235); /* cor do botão */
+     margin-left: 20px; /*distancia entre os botoes */
+     border-radius: 50px; /*deixando o botão redondo */
+     color: rgb(254, 246, 255); /* cor da letra */
+     border : none; /*tirando a borda */
+     cursor: pointer; /*muda o cursor */
+     font-family:inherit; /*fonte do botão*/
+     font-size: 20px; /*tamanho da fonte do botão  */
+     box-shadow: 5px 1px 5px 1px rgb(199, 192, 235); /* sombra do botão*/
+     transition: transform 200ms ease-in-out;/* transition aguarda uma alteração na propriedade
+                                                transform (quando passa o mouse por cima). ease-in-out é 
+                                                o tipo de animação que realiza a transição com o inicio e
+                                                final lento. */
+}
+
+/* :hover possibilita um elemento ter o seu estilo alte
+    através da ação do usuário, quando o próprio passa o cursor do mouse sobre o elemento. */
+button:hover { 
+    transform: scale(1.05); /* o botão aumenta um pouco quando passar o cursor por cima */
+}
+
