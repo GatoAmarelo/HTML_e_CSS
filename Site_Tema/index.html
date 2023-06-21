@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+</head>
+<body>
+    
+        <h1>Tema</h1>
+        <p>Escolha uma cor</p>
+        <button onclick="mudarCor('#542437' ,'#f0b49e')">1</button>
+        <button onclick="mudarCor('#e32d40','#ff745f')">2</button>
+        <button onclick="mudarCor('#96875a','#ba3c3d')">3</button>
+        <button onclick="mudarCor('#a0c55f','#ffe8b3')">4</button>
+        <button onclick="mudarCor('#d6e6c3','#73626e')">5</button>
+        <button onclick="mudarCor('#463e47','#cad1c3')">6</button>
+        <button onclick="mudarCor('#ffc55f','#e02130')">7</button>
+        <button onclick="mudarCor('#fa748f','#f7e4be')">8</button>
+        <button onclick="mudarCor('white', 'black')">Nenhum</button>
+    
+</body>
+<style>
+button{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    margin-left: 10px;
+    border: none;
+    
+}
+
+</style>
+<script> 
+function mudarCor (cor, texto) {
+    document.body.style.backgroundColor= cor;  
+    document.body.style.color = texto;
+}
+
+</script>
+</html>
