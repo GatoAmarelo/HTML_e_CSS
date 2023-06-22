@@ -23,5 +23,6 @@ button{
     através da ação do usuário, quando o próprio passa o cursor do mouse sobre o elemento. */
 button:hover { 
     transform: scale(1.05); /* o botão aumenta um pouco quando passar o cursor por cima */
+    background-color: rgb(134, 58, 196);
 }
 
