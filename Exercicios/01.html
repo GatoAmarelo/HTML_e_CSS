@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso do hover</title>
+</head>
+<body>
+    <!--Uso da pseudo classe :hover 
+    :hover representa um elemento sobre o qual o mouse está se movendo.
+    -->
+
+    <div>
+        Passe o mouse aqui
+        <p>Elemento escondido</p>
+    </div>
+    <style>
+        p{
+            display:none; /*escondendo o elemento p*/
+        }
+        div:hover>p{ 
+            display:block;
+        }
+    </style>
+</body>
+</html>
